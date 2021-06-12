@@ -1,0 +1,6 @@
+ul#menu li {
+  display: inline;
+  margin: 0 1rem;
+  list-style: none; 
+  padding: 4px; 
+}
