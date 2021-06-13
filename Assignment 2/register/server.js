@@ -24,6 +24,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'))
 app.use(cors())
-app.get('/register', db.register);
+app.put('/register', db.register);
 app.listen(5000)
 console.log("Server started...")

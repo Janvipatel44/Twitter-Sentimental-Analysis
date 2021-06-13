@@ -189,7 +189,7 @@ export class Register extends Component
         e.preventDefault();
         
         axios.post('http://localhost:5000/register', this.state).then((response) => {
-            if (response.status == 200) {
+            if (response.status == 444) {
               console.log('Registration successfully done!');
 
               this.props.history.push({
